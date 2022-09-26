@@ -1,0 +1,36 @@
+html, body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(237, 237, 237);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+main hr {
+  border-top: 1px solid #007481;
+  width: 90%;
+}
+.searchBox {
+  margin-top: 10px;
+}
+.searchBox input {
+  border-radius: 5px;
+  width: 250px;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  padding: 5px;
+  border: 1px solid #007481;
+  outline: none;
+}
+
+.gif-grid {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
